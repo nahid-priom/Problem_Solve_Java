@@ -24,6 +24,7 @@ public class Solution {
             hour = 0;
         }
 
+        System.out.println("hi");
         return String.format("%02d:%02d:%02d", hour, minute, second);
     }
 }
